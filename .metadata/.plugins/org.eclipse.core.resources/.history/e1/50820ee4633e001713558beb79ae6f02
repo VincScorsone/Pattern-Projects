@@ -1,0 +1,23 @@
+package factory;
+
+import objects.Fruit;
+
+public class OrangeFactory implements Factory {
+
+	public OrangeFactory() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Fruit makeFruit() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Fruit makeTree() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,9 @@
+package objects;
+
+public class AppleTree {
+
+	public AppleTree() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

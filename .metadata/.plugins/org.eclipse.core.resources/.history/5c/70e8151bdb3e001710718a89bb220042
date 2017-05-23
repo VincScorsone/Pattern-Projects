@@ -1,0 +1,31 @@
+package builder;
+
+import orange.Orange;
+
+public class NavelinaOrangeBuilder implements OrangeBuilder {
+
+	@Override
+	public Orange build() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Orange buildType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Orange buildColor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Orange buildSize() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

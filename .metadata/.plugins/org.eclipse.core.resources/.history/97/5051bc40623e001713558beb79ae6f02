@@ -1,0 +1,13 @@
+package objects;
+
+public class Apple extends Fruit{
+
+	public Apple() {
+		this.setType("apple");
+	}
+	
+	public void view(){
+		System.out.println("I'm a apple\n");
+	}
+
+}

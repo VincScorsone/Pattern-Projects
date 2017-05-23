@@ -1,0 +1,23 @@
+package prototype;
+
+public class Orange implements Prototype {
+
+	@Override
+	public Prototype clone() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void view() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

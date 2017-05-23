@@ -1,0 +1,27 @@
+package test;
+
+import factory.AnimalFactory;
+import factory.FrogFactory;
+import factory.HorseFactory;
+import factory.SnakeFactory;
+
+public class Test {
+	
+	public static AnimalFactory getTypeFactory(String s){
+		if(s=="S")
+			return new SnakeFactory();
+		else if(s=="H")
+			return new HorseFactory();
+		else
+			return new FrogFactory();
+	}
+
+	public static void main(String[] args) {
+		getTypeFactory("S").getFactory().move();
+		getTypeFactory("H").getFactory().move();
+		getTypeFactory("F").getFactory().move();
+		getTypeFactory("S").getFactory().move();
+
+	}
+
+}

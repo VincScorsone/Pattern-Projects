@@ -1,0 +1,28 @@
+package test;
+
+import factory.AnimalFactory;
+import factory.FrogFactory;
+import factory.HorseFactory;
+import factory.SnakeFactory;
+
+public class Test {
+	private AnimalFactory factory=null;
+	
+	public void setTypeFactory(String s){
+		if(s=="S")
+			factory=new SnakeFactory();
+		else if(s=="H")
+			factory=new HorseFactory();
+		else
+			factory=new FrogFactory();
+	}
+	
+	public void move(){
+		try{
+			factory.getFactory().move();
+		}catch (NullPointerException e){
+			System.out.println("Test don't have Factory");
+		}
+	}
+
+}

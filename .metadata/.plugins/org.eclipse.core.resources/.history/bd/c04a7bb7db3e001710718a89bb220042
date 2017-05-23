@@ -1,0 +1,31 @@
+package builder;
+
+import orange.Orange;
+
+public class TaroccoOrangeBuilder implements OrangeBuilder {
+
+	@Override
+	public Orange build() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public OrangeBuilder buildType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public OrangeBuilder buildColor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public OrangeBuilder buildSize() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

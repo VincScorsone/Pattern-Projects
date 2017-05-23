@@ -1,0 +1,12 @@
+package prototype;
+
+import java.util.ArrayList;
+
+public class PrototypeManager {
+	private static ArrayList<Prototype> list= new ArrayList<Prototype>();
+	
+	public static void addPrototype(String type){
+		if(type.equals("apple"))
+			list.add(arg0)
+	}
+}

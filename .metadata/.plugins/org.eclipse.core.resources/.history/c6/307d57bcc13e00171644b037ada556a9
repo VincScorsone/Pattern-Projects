@@ -1,0 +1,10 @@
+package object;
+
+public class Apple extends Fruit{
+
+	public Apple() {
+		this.setType("apple");
+	}
+
+
+}

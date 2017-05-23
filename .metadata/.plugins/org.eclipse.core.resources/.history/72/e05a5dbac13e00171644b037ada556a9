@@ -1,0 +1,14 @@
+package singleton;
+
+import object.Apple;
+
+public class AppleSingleton {
+	private static Apple apple=null;
+	
+	public static Apple getIstance(){
+		if(apple==null)
+			apple= new Apple();
+		
+		return apple;
+	}
+}

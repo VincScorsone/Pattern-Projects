@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="animals.Animal"/>
+<fullyQualifiedTypeName name="animals.Snake"/>
+<fullyQualifiedTypeName name="animals.Horse"/>
+<fullyQualifiedTypeName name="animals.Frog"/>
+<fullyQualifiedTypeName name="animals.Human"/>
+<fullyQualifiedTypeName name="objects.Child"/>
+<fullyQualifiedTypeName name="objects.Adult"/>
+<fullyQualifiedTypeName name="objects.Animal"/>
+<fullyQualifiedTypeName name="objects.Human"/>
+<fullyQualifiedTypeName name="objects.Fruit"/>
+<fullyQualifiedTypeName name="objects.Apple"/>
+<fullyQualifiedTypeName name="objects.AppleTree"/>
+<fullyQualifiedTypeName name="objects.Orange"/>
+<fullyQualifiedTypeName name="objects.OrangeTree"/>
+<fullyQualifiedTypeName name="factory.FactoryProducer"/>
+<fullyQualifiedTypeName name="factory.Factory"/>
+<fullyQualifiedTypeName name="factory.AppleFactory"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="prototype.PrototypeManager"/>
+<fullyQualifiedTypeName name="prototype.OrangePrototype"/>
+<fullyQualifiedTypeName name="prototype.Prototype"/>
+<fullyQualifiedTypeName name="orange.Orange"/>
+<fullyQualifiedTypeName name="builder.BuilderDirector"/>
+</qualifiedTypeNameHistroy>

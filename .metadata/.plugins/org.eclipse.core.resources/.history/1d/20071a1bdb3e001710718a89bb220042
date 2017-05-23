@@ -1,0 +1,10 @@
+package builder;
+
+import orange.Orange;
+
+public interface OrangeBuilder {
+	public Orange build();
+	public Orange buildType();
+	public Orange buildColor();
+	public Orange buildSize();
+}

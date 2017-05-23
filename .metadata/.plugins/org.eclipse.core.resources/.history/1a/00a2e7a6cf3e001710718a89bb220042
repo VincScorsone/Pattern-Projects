@@ -1,0 +1,23 @@
+package prototype;
+
+public class Orange implements Prototype {
+	private String name = "orange";
+	
+	@Override
+	public Prototype clone() {
+		return n;
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void view() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
